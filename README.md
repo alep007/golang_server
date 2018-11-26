@@ -25,14 +25,14 @@ dep ensure -v
 go run main.go
 ```
 
-* Open an Internet Browser and go to [Localhost port 9000, route documents](http://localhost:9000/documents)
+* Open an Internet Browser and go to http://localhost:9000/documents
 
 ### Output
 
 * The program will return all MD5 checksum, names and sizes of the files located in the "files" folder in JSON format.
 
 Example:
-Making a GET request to [http://localhost:9000/documents](http://localhost:9000/documents),
+Making a GET request to http://localhost:9000/documents
 The server will respond with a dictionary of all files located in "files" folder in JSON format:
 
 ```
