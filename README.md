@@ -16,7 +16,9 @@ Follow the instruction to copy and run the project.
 ```
 go get -u github.com/golang/dep/cmd/dep
 ```
+```
 dep init -v
+```
 ```
 dep ensure -v 
 ```
